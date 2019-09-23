@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Goibibo Test" duration-ms="65028" started-at="2019-09-23T18:01:24Z" finished-at="2019-09-23T18:02:29Z">
+    <groups>
+    </groups>
+    <test name="GoIbibo Search Flight" duration-ms="36669" started-at="2019-09-23T18:01:24Z" finished-at="2019-09-23T18:02:01Z">
+      <class name="com.goibibo.testcases.HomePageTest">
+        <test-method status="PASS" signature="startMethod()[pri:0, instance:com.goibibo.testcases.HomePageTest@4fe3c938]" name="startMethod" is-config="true" duration-ms="21247" started-at="2019-09-23T18:01:24Z" finished-at="2019-09-23T18:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="flightDetails(java.lang.reflect.Method)[pri:1, instance:com.goibibo.testcases.HomePageTest@4fe3c938]" name="flightDetails" duration-ms="14018" started-at="2019-09-23T18:01:45Z" finished-at="2019-09-23T18:02:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.goibibo.testcases.HomePageTest.flightDetails(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.goibibo.testcases.HomePageTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="1262" started-at="2019-09-23T18:02:00Z" finished-at="2019-09-23T18:02:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.goibibo.testcases.HomePageTest -->
+    </test> <!-- GoIbibo Search Flight -->
+    <test name="GoIbibo Book Flight" duration-ms="27900" started-at="2019-09-23T18:02:01Z" finished-at="2019-09-23T18:02:29Z">
+      <class name="com.goibibo.testcases.SearchPageTest">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.goibibo.testcases.SearchPageTest@1d16f93d]" name="setupTest" is-config="true" duration-ms="22110" started-at="2019-09-23T18:02:01Z" finished-at="2019-09-23T18:02:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="searchandBookFlight(java.lang.reflect.Method)[pri:2, instance:com.goibibo.testcases.SearchPageTest@1d16f93d]" name="searchandBookFlight" duration-ms="2709" started-at="2019-09-23T18:02:23Z" finished-at="2019-09-23T18:02:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.goibibo.testcases.SearchPageTest.searchandBookFlight(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchandBookFlight -->
+        <test-method status="PASS" signature="verify(java.lang.reflect.Method)[pri:3, instance:com.goibibo.testcases.SearchPageTest@1d16f93d]" name="verify" duration-ms="1912" started-at="2019-09-23T18:02:26Z" finished-at="2019-09-23T18:02:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.goibibo.testcases.SearchPageTest.verify(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.goibibo.testcases.SearchPageTest@1d16f93d]" name="tearDown" is-config="true" duration-ms="1161" started-at="2019-09-23T18:02:28Z" finished-at="2019-09-23T18:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.goibibo.testcases.SearchPageTest -->
+    </test> <!-- GoIbibo Book Flight -->
+  </suite> <!-- Goibibo Test -->
+</testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Goibibo Test]">
+  <listeners>
+    <listener class-name="Analyzer.ListenerClass"/>
+    <listener class-name="Analyzer.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="GoIbibo Book Flight(failed)">
+    <classes>
+      <class name="com.goibibo.testcases.SearchPageTest">
+        <methods>
+          <include name="searchandBookFlight"/>
+          <include name="setupTest"/>
+          <include name="verify"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.goibibo.testcases.SearchPageTest -->
+    </classes>
+  </test> <!-- GoIbibo Book Flight(failed) -->
+</suite> <!-- Failed suite [Goibibo Test] -->
